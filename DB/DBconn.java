@@ -11,15 +11,15 @@ import java.sql.SQLException;
  **/
 public class DBconn {
 
-    private static final String url = "jdbc:sqlserver://112.74.55.83;database=txxzc_erp01";
+    private static final String url = "jdbc:sqlserver://;database=";
     /**数据库地址
      *
      */
-    private static final String username = "sa";
+    private static final String username = "xxx";
     /**数据库地址
      *
      */
-    private static final String password = "123456@Sql";
+    private static final String password = "xxx";
     /**
     *数据库密码
     */
