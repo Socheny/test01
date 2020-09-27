@@ -10,25 +10,24 @@ import java.sql.SQLException;
  * @Date:
  **/
 public class DBconn {
-
+    
+    /**
+     *数据库地址
+     */
     private static final String url = "jdbc:sqlserver://;database=";
-    /**数据库地址
-     *
+    /**
+     *数据库用户名
      */
     private static final String username = "xxx";
-    /**数据库地址
-     *
-     */
-    private static final String password = "xxx";
     /**
     *数据库密码
     */
+    private static final String password = "xxx";
+
     private static final Connection conn = null;
-    /**
-    * */
+
     private static final String driver = "com.microsoft.sqlserver.jdbc.SQLServerDriver";
-    /**
-    **/
+
     /**
      * 连接数据库
      * @return
