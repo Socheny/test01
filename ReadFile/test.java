@@ -13,7 +13,7 @@ public class test {
 
     public static void main(String[] args) {
         try {
-             readfile("F:\\资产维护部\\车牌号\\车辆档案电子档");
+             readfile("xxxxxxxxxxx");
         } catch (FileNotFoundException ex) {
         } catch (IOException ex) {
         }
