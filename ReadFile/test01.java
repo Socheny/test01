@@ -17,7 +17,7 @@ public class test01 {
 
     public static void main(String[] args) {
 
-        String path = "F:\\资产维护部\\车架号\\合格证（车架号后6位命名）";
+        String path = "xxxxxxxxxxx";
 
         List<File> files = traverseFolder1(path);
 
@@ -57,6 +57,9 @@ public class test01 {
                         fileList.add(file2);
                         System.out.println("文件:" + file2.getAbsolutePath());
                        // System.out.println("名称"+file2.getName().substring(file2.getName().lastIndexOf(".")+1));
+                        /**
+                        *这个会出现空指针报错
+                        */
                         //System.out.println(file2.getName().substring(file2.getName().indexOf("."), file2.getName().length()));
                         fileNum++;
                     }
